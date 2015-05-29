@@ -52,6 +52,15 @@
                                     <rect key="frame" x="25" y="263" width="364" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgZ-PZ-8Gp">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="157" width="240" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFu-V5-mK3">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -69,6 +78,7 @@
                                 <exclude reference="owD-yY-6Aa"/>
                                 <exclude reference="hbL-zJ-R8f"/>
                                 <exclude reference="hbd-6f-GO8"/>
+                                <exclude reference="DgZ-PZ-8Gp"/>
                                 <exclude reference="bFu-V5-mK3"/>
                             </mask>
                         </variation>
@@ -78,6 +88,7 @@
                                 <include reference="owD-yY-6Aa"/>
                                 <include reference="hbL-zJ-R8f"/>
                                 <include reference="hbd-6f-GO8"/>
+                                <include reference="DgZ-PZ-8Gp"/>
                                 <include reference="bFu-V5-mK3"/>
                             </mask>
                         </variation>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="hbd-6f-GO8" id="D0D-tE-ctD"/>
                         <outlet property="mailButton" destination="hbL-zJ-R8f" id="myT-ZD-6jN"/>
                         <outlet property="messageLabel" destination="bFu-V5-mK3" id="9El-Dy-k1i"/>
+                        <outlet property="nameLabel" destination="DgZ-PZ-8Gp" id="Odh-3V-1Gs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
